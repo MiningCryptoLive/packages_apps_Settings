@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/about_bl_settings_title"
+	xmlns:bl="http://schemas.android.com/apk/res/com.android.settings">
+
+	<PreferenceCategory
+		android:key="links"
+		android:title="@string/bluelightning">
+
+		<Preference
+			android:key="bluelightning_site"
+			android:title="@string/bluelightning_blog_title"
+			android:summary="@string/bluelightning_blog_summary" />
+
+		<com.android.settings.widgets.DeveloperPreference
+                        android:title="BlueLightning"
+                        bl:nameDev="BlueLightning"
+                        bl:twitterHandle="bluelightning_rom"    
+                        bl:githubLink="@string/github_bluelightning" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="devs"
+		android:title="@string/devs">
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Racing19969"
+            bl:nameDev="Racing19969"
+            bl:twitterHandle="FIXMYBRICKBIZ"
+            bl:donateLink="@string/donate_bluelightning"
+            bl:githubLink="@string/github_bluelightning" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="maintainers"
+		android:title="@string/maintainers_team_title">
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Racing19969"
+            bl:nameDev="Racing19969 (Nexus4)"
+            bl:twitterHandle="FIXMYBRICKBIZ" />
+
+	</PreferenceCategory> 
+
+	<PreferenceCategory
+		android:key="graphics"
+		android:title="@string/graphics_team_title">
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Racing19969"
+            bl:nameDev="Racing19969"
+            bl:twitterHandle="FIXMYBRICKBIZ"
+            bl:githubLink="@string/github_Racing1" />
+
+
+	</PreferenceCategory>      
+
+	<PreferenceCategory
+		android:key="support"
+		android:title="@string/support_team_title">
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Racing19969"
+            bl:nameDev="Racing19969"
+            bl:twitterHandle="FIXMYBRICKBIZ" />
+
+
+	</PreferenceCategory>         
+
+	<PreferenceCategory
+		android:key="contributors"
+		android:title="@string/contributors_title">
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Racing19969"
+            bl:nameDev="Racing19969"
+            bl:twitterHandle="FIXMYBRICKBIZ"
+            bl:donateLink="@string/donate_bluelightning"
+            bl:githubLink="@string/github_Racing1" />
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="AOKP"
+            bl:nameDev="AOKP"
+            bl:twitterHandle="aokp_rom"
+            bl:donateLink="@string/donate_aokp"
+            bl:githubLink="@string/github_aokp" />
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="CyanogenMod"
+            bl:nameDev="CyanogenMod"
+            bl:twitterHandle="cyanogenmod"
+            bl:donateLink="@string/donate_cyanogenmod"
+            bl:githubLink="@string/github_cyanogenmod" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
